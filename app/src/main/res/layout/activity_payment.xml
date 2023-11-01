@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/blue">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        app:srcCompat="@drawable/upi"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="-20dp"
+        android:alpha="0.9"
+        android:text="@string/payment"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="85dp"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtupiid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/upi_id"
+        android:layout_marginStart="85dp"
+         android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        tools:ignore="TextFields,VisualLintTextFieldSize"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edtamt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:textColorHint="@color/white"
+
+        android:layout_marginBottom="10dp"
+        android:hint="Amount ₹"
+        android:minHeight="48dp"
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:id="@+id/edtmsg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Message"
+        android:layout_marginStart="85dp"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edttnid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Transaction Id"
+        android:layout_marginStart="85dp"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtrefid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Reference Id"
+        android:layout_marginStart="85dp"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+
+
+    <Button
+        android:id="@+id/btnpay"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Donate  ₹"
+        android:textColor="@color/blue"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

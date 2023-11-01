@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ngo</string>
+    <string name="nav">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup">Signup</string>
+    <string name="book">Book</string>
+    <string name="money">Money</string>
+    <string name="dress">Dress</string>
+    <string name="name">name</string>
+    <string name="upi_id">UPI Id</string>
+    <string name="Name">Name</string>
+    <string name="payment">Payment</string>
+    <string name="karpi">Karpi</string>
+    <string name="volunteers">Volunteers</string>
+    <string name="_100">100+</string>
+    <string name="services">Services</string>
+    <string name="_200">200+</string>
+    <string name="karpi_is_an_ngo_non_governmental_organisation_to_working_with_children_to_educate_beyond_textbooks_and_tell_about_importance_of_knowledge">Karpi is an NGO(Non Governmental Organisation).To working with children to educate beyond textbooks and tell about importance of knowledge</string>
+    <string name="_150">150+</string>
+    <string name="chat">Chat</string>
+    <string name="message">Message</string>
+</resources>

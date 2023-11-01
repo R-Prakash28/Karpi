@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/k"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:textSize="16sp"
+        android:text="Karpi"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="-5sp"
+        android:text="karpiorganisation.facebook.com"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+</LinearLayout>

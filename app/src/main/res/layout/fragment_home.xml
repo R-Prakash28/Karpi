@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/karpi"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/blue"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mainpro"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/karpi_is_an_ngo_non_governmental_organisation_to_working_with_children_to_educate_beyond_textbooks_and_tell_about_importance_of_knowledge"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Volun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volunteers"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/volnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_150"
+        android:layout_marginTop="435dp"
+        android:layout_marginStart="90dp"
+        android:textColor="@color/darkgrey"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Serv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/services"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="240dp"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sernum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_200"
+        android:layout_marginTop="435dp"
+        android:layout_marginStart="260dp"
+        android:textColor="@color/darkgrey"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If u interested in this NGO, Click Community Chat"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="30dp"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/signupbtn"
+        android:text="@string/chat"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</FrameLayout>

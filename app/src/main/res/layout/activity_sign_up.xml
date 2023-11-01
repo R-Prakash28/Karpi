@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/blue"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:text="Create Account"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            tools:ignore="RtlHardcoded">
+
+            <EditText
+                android:id="@+id/mobilenumber"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:drawableRight="@drawable/baseline_phone_android_24"
+                android:ems="10"
+                android:hint="Enter your number"
+                android:inputType="phone"
+                tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:drawableRight="@drawable/baseline_verified_user_24"
+                android:hint="Enter your OTP"
+                android:visibility="gone"
+                tools:ignore="Autofill,DuplicateIds,HardcodedText,TextFields,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/otpbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="OTP"
+                tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TouchTargetSizeCheck,TextSizeCheck" />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:ems="10"
+                android:drawableRight="@drawable/baseline_insert_emoticon_24"
+                android:hint="Enter a UserName"
+                android:inputType="textEmailAddress"
+                tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
+
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:ems="10"
+                android:drawableRight="@drawable/baseline_mail_outline_24"
+                android:hint="Enter a Mail id"
+                android:inputType="textEmailAddress"
+                tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:drawableRight="@drawable/baseline_password_24"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+
+
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signupbtn"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck,HardcodedText,TextSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/Loginnow"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text="Click to Login"
+                android:textColor="@color/blue"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

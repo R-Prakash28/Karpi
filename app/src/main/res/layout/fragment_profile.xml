@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Profile"
+        android:textSize="42dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="HardcodedText,SpUsage,VisualLintOverlap" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="40dp"
+
+            android:src="@drawable/baseline_person_pin_24"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:id="@+id/proname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/profeditname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textAlignment="viewEnd"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginRight="25dp"/>
+
+        <TextView
+            android:id="@+id/proemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/profeditemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textAlignment="viewEnd"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginRight="25dp"/>
+
+        <TextView
+            android:id="@+id/propassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginTop="20dp"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/profeditpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textAlignment="viewEnd"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginRight="25dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="300dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="@color/blue"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
